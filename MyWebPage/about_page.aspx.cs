@@ -7,11 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace MyWebPage
 {
-    public partial class About : Page
+    public partial class about_page : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("about_page.aspx");
+
+        }
+        protected override void OnPreRender(EventArgs e)
+        {
+            Response.Output.Write("<br/>");
         }
     }
 }

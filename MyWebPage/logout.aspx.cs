@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace MyWebPage
 {
-    public partial class About : Page
+    public partial class logout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("about_page.aspx");
+            Session.Abandon();
+            Response.Redirect("index.aspx");
         }
     }
 }

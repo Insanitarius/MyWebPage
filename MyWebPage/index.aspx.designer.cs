@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyWebPage {
-    
-    
-    public partial class index {
-        
+namespace MyWebPage
+{
+
+
+    public partial class index
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// sinEmail control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox sinEmail;
-        
+
         /// <summary>
         /// sinPass control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox sinPass;
-        
+
         /// <summary>
         /// signInBtn control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button signInBtn;
-        
+
         /// <summary>
         /// supFname control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox supFname;
-        
+
         /// <summary>
         /// supEmail control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox supEmail;
-        
+
         /// <summary>
         /// supPass control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace MyWebPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox supPass;
-        
+
         /// <summary>
         /// signUpBtn control.
         /// </summary>

@@ -1,0 +1,12 @@
+.container {
+    height: 30px;
+}
+
+#mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul .nav .navbar-nav .ml-auto .text-uppercase {
+    text-align: end;
+}

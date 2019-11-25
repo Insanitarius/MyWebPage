@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css?family=Gudea:400,700);
+body {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'gudea', sans-serif;
+    background: #ea5c54;
+    background: linear-gradient(135deg, #ea5c54 0%, #bb6dec 100%);
+    filter: progid:dximagetransform.microsoft.gradient( startcolorstr='#ea5c54 ', endcolorstr='#bb6dec',gradienttype=1 );
+    background-image: url(image.jpg);
+    background-size: 100% 100%;
+}
+body ::-webkit-input-placeholder {
+  color: #4E546D;
+}
+body .authent {
+  display: none;
+  background: #35394a;
+  background: linear-gradient(45deg, #35394a 0%, #1f222e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35394a', endColorstr='#1f222e',GradientType=1 );
+  position: absolute;
+  left: 0;
+  right: 90px;
+  margin: auto;
+  width: 100px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 40px 30px;
+  top: 200px;
+  bottom: 0;
+  height: 70px;
+  opacity: 0;
+  border-radius: 50%;
+}
+body .authent p {
+  text-align: center;
+  color: white;
+}
+body .success {
+  display: none;
+  text-align: center;
+  color: #d5d8e2;
+}
+body .success p {
+  font-size: 14px;
+  text-align: center;
+}
+body p {
+  color: #5B5E6F;
+  font-size: 10px;
+  text-align: left;
+}
+body .testtwo {
+  left: -320px !important;
+}
+body .test {
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+  top: -100px !important;
+  -webkit-transform: rotateX(70deg) scale(0.3) !important;
+          transform: rotateX(70deg) scale(0.3) !important;
+  opacity: .6 !important;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+body .login {
+  opacity: 1;
+  top: 20px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.25, 0.265, 0.85);
+  transition-property: opacity,box-shadow,top,left,-webkit-transform;
+  transition-property: transform,opacity,box-shadow,top,left;
+  transition-property: transform,opacity,box-shadow,top,left,-webkit-transform;
+  transition-duration: .5s;
+  -webkit-transform-origin: 161px 100%;
+          transform-origin: 161px 100%;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  position: relative;
+  width: 300px;
+
+  background-color: white;
+  box-shadow: 0 0 0 30px rgba(255,255,255,.2);
+  border-radius: 50%;
+  /* position: fixed; */
+  top:50%;
+  left: 20%;
+
+  height: 240px;
+  position: absolute;
+  /* left: 0; */
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 100px 40px 40px 40px;
+  background: #ffffff;
+  background: linear-gradient(45deg, #35394a 0%, #1f222e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35394a', endColorstr='#1f222e',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+body .login .disclaimer {
+  position: absolute;
+  bottom: 20px;
+  left: 35px;
+  width: 250px;
+}
+body .login_title {
+  color: #afb1be;
+  height: 60px;
+  text-align: left;
+  font-size: 16px;
+  text-align: center;
+}
+body .login_fields {
+  height: 208px;
+  position: absolute;
+  left: 40px;
+}
+
+body .login_fields input[type='text']{
+  color: #afb1be;
+  width: 150px;
+  background: #32364a;
+  left: 0;
+  padding: 10px 50px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  font-family: 'Gudea', sans-serif;
+  box-shadow: none;
+}
+body .login_fields__user, body .login_fields__password {
+  position: relative;
+  left: 10%;
+}
+body .login_fields__submit {
+  position: relative;
+  top: 35px;
+  left: 21%;
+  width: 80%;
+  right: 0;
+  margin: auto;
+}
+body .login_fields__submit .forgot {
+  float: right;
+  font-size: 10px;
+  margin-top: 11px;
+  text-decoration: underline;
+}
+body .login_fields__submit .forgot a {
+  color: #606479;
+}
+body .login_fields__submit input {
+  border-radius: 50px;
+  background: transparent;
+  padding: 10px 50px;
+  border: 2px solid #DC6180;
+  color: #DC6180;
+  text-transform: uppercase;
+  font-size: 11px;
+  transition-property: background,color;
+  transition-duration: .2s;
+}
+body .login_fields__submit input:focus {
+  box-shadow: none;
+  outline: none;
+}
+body .login_fields__submit input:hover {
+  color: white;
+  background: #DC6180;
+  cursor: pointer;
+  transition-property: background,color;
+  transition-duration: .2s;
+}
+
+
+
+body .login_fields .icon {
+  position: absolute;
+  z-index: 1;
+  left: 36px;
+  top: 8px;
+  opacity: .5;
+}
+
+
+
+
+
+
+/* Isao */
+.input__field--isao {
+	z-index: 10;
+	padding: 30px 30px 30px;
+	width: 100%;
+	background: transparent;
+	color: #afb3b8;
+}
+
+.input__label--isao {
+	position: absolute;
+	overflow: hidden;
+  padding: 5px;
+  bottom: -20px;
+  right:0px;
+  left: -5px;
+	width: 245px;
+	color: #dadada;
+	text-align: left;
+}
+
+.input__label--isao::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 10px;
+	background: #dadada;
+	-webkit-transform: scale3d(1, 0.4, 1);
+	transform: scale3d(1, 0.4, 1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+	transition: transform 0.3s, background-color 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__label--isao::after {
+	content: attr(data-content);
+	position: absolute;
+	top: 900px;
+	left: 0;
+	padding: 0.75em 0.15em;
+	color: #da7071;
+	opacity: 0;
+	-webkit-transform: translate3d(0, 50%, 0);
+	transform: translate3d(0, 50%, 0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	pointer-events: none;
+}
+
+.input__field--isao:focus + .input__label--isao::before {
+	background-color: #da7071;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+}
+
+.input__field--isao:focus + .input__label--isao {
+	pointer-events: none;
+}
+
+.input__field--isao:focus + .input__label--isao::after {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__label-content--isao {
+	padding: 0.75em 0.15em;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__field--isao:focus + .input__label--isao .input__label-content--isao {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+}

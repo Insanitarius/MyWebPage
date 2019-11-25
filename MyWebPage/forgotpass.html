@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet' href='forgotpass.css'>
+</head>
+<body>
+    <div class='login'>
+        <div class='login_title'>
+            <span>Please enter your registered email address <br> to reset your password</span>
+        </div>
+        <div class='login_fields'>
+            <div class='login_fields__user'>
+                <span class="input input--isao">
+                    <input class="input__field input__field--isao" type="text" id="input-40" />
+                    <label class="input__label input__label--isao" for="input-40" data-content="Email">
+                        <span class="input__label-content input__label-content--isao">Email</span>
+                    </label>
+                </span>
+            </div>
+            <div class='login_fields__submit'>
+                <input type='submit' value='Reset' onclick="setTimeout(xyz,5500)">
+            </div>
+        </div>
+        <div class='success'>
+            <br>
+            <h2>Sent Succesfully</h2>
+            <p>Please check your Email</p>
+        </div>
+    </div>
+    <div class='authent'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/puff.svg'>
+        <p>Connecting...</p>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script type="text/javascript" src="forgotpass.js"></script>
+    <script>
+        function xyz() {
+                window.location.href = "index.aspx";
+        }
+    </script>
+</body>
+</html>

@@ -1,14 +1,42 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="animate.css">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+body {
+    background-image:url(image.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#circle {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 150px;
+height: 150px;	
+}
+
+.loader {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    border: 8px solid #74E5FF;
+    border-top: 8px solid #FFF686;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+100% {transform: rotate(360deg);}
+} 
+</style>
 </head>
 <body>
     <script>
         setTimeout(function () {
-            window.location.href = "index.aspx";
+            window.location.href = "openGates.aspx";
         }, 2000);
     </script>
     <img class="bg" />

@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
-        <link href="Main.css" rel="stylesheet"/>
+        <link href="main.css" rel="stylesheet"/>
         <script src="jquery-1.10.2.min.js"></script>
         <script src="JQUERYMain.js"></script>
         <meta name="viewport" content="width=device-width,intial-scale=1" />
@@ -21,17 +21,21 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="sinEmail" runat="server" class="input100" placeholder="EMAIL ID"></asp:TextBox>    
+                        <asp:TextBox ID="sinEmail" runat="server" class="input100" placeholder="EMAIL ID"></asp:TextBox>
+                        <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="sinEmail"
+                            ForeColor="Red" Display = "Dynamic" ErrorMessage = "Required" />--%>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <asp:TextBox ID="sinPass" runat="server" class="input100" placeholder="PASSWORD" TextMode="Password"></asp:TextBox>
+                        <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="sinPass"
+                            ForeColor="Red" Display = "Dynamic" ErrorMessage = "Required" />--%>
                     </td>
                 </tr>
                 <tr>
                     <td align="right">
-                        <div id="frt">FORGOT PASSWORD?</div>
+                        <div id="frt"><a href="forgotpass.html">FORGOT PASSWORD?</a></div>
                     </td>
                 </tr>
                 <tr>
@@ -46,7 +50,7 @@
                 </tr>
             </table>
         </div>
-        
+       
         <div id="signUpForm">
             <table border="0" cellspacing="10">
                 <tr>
@@ -58,6 +62,8 @@
                 <tr>
                     <td>
                         <asp:TextBox ID="supFname" runat="server" class="input100" placeholder="FULL NAME"></asp:TextBox>
+                        <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="supFname"
+    ForeColor="Red" Display = "Dynamic" ErrorMessage = "Required" />--%>
                     </td>
                 </tr>
                 <tr>
