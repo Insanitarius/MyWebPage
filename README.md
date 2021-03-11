@@ -20,32 +20,44 @@ Our web application focuses on finding teacher and student hassle free and less 
 
 
 
-**ForgotPassword**
+### Forgot Password
 
 ![Forgot Password](https://i.ibb.co/PtT7gpv/Annotation-2019-12-02-005356.png)
 
-**Home Page**
+
+
+### Home Page
 
 ![Home Page](https://i.ibb.co/VCS02hZ/Annotation-2019-12-02-005555.png)
 
-**Classes (No record Found)**
+
+
+### Classes (No record Found)
 
 ![Classes with no records](https://i.ibb.co/B6v0QP4/Annotation-2019-12-02-005610.png)
 
-**Classes (Record Found)**
+
+
+### Classes (Record Found)
 
 ![Classes with a single record](https://i.ibb.co/svvJvsc/Annotation-2019-12-02-005630.png)
 
-**About Us Page** (The text is written dynamically like a type writer format)
+
+
+### About Us Page
 
 ![About Us](https://i.ibb.co/NZSFym4/Annotation-2019-12-02-011109.png)
 
 
 
-**DataBase(ER Diagram)**
+
+
+### DataBase(ER Diagram)
 
 ![ER Diagram](https://i.ibb.co/3s81cKX/erdiagram.png)
 
-**DataBase(Schema Diagram)**
+
+
+### DataBase(Schema Diagram)
 
 ![Schema Diagram](https://i.ibb.co/QcwVD2J/final-1.png)
