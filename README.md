@@ -5,7 +5,8 @@
 Our web application focuses on finding teacher and student hassle free and less hectic. We provide an online interface to manage the classes the teacher and student is currently having so it makes the whole process of managing schedule for classes much simpler and effective since the user does not have to keep and physical note of those classes.
 
 ##Sign In
-![Sign In](https://thumbs2.imgbox.com/1b/1a/hmfh1IHJ_t.png)
+
+![Sign In](https://images2.imgbox.com/1b/1a/hmfh1IHJ_o.png)
 
 ##Sign Up
 ![Sign Up](https://imgbox.com/ysir3OYU)
