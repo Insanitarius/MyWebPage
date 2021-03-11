@@ -70,11 +70,6 @@ Our web application focuses on finding teacher and student hassle free and less 
 
 
 
-### DataBase(ER Diagram)
-
-![ER Diagram](https://i.ibb.co/3s81cKX/erdiagram.png)
-
-
 
 ### DataBase(Schema Diagram)
 
